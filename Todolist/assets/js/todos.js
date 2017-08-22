@@ -1,8 +1,3 @@
-//agiungi che quando farai hover sul todo da fare strike out aggiungi
-// un animation dove ingrendisce il todo e continua a mettere e togliere lo strike
-// out e si fa verde
-
-
 //Check off specific todos by clicking
 $('ul').on('click', 'li', function(){
     $(this).toggleClass('completed');
